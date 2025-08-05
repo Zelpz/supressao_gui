@@ -35,3 +35,15 @@ pip install -r requirements.txt
 3. Rode a aplicação
 
 streamlit run src/app.py
+
+## 🛰️ Dados
+Os dados de desmatamento utilizados são públicos e podem ser baixados do portal TerraBrasilis.
+
+## ⚠️ Observação importante
+Este projeto foi desenvolvido com base nos dados do PRODES fornecidos pelo portal TerraBrasilis. As colunas esperadas para o funcionamento correto são:
+
+area_km (área do polígono em km²)
+
+year (ano de ocorrência do desmatamento)
+
+Caso seus dados tenham colunas com nomes diferentes, será necessário adaptar o código para refletir os novos nomes de atributos.
